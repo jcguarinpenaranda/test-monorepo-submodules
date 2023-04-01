@@ -15,8 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "core": ["packages/core/src/index.ts"],
-      "private-feature": ["packages/private-feature-submodule/src/index.ts"]
+      "@juan/core": ["packages/core/src/index.ts"],
+      "@juan/date-utils": ["packages/date-utils/src/index.ts"],
+      "@juan/extra": ["packages/extra/src/index.ts"],
+      "@juan/private-feature-submodule": [
+        "packages/private-feature-submodule/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
