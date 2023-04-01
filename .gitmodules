@@ -1,0 +1,3 @@
+[submodule "packages/private-feature-submodule"]
+	path = packages/private-feature-submodule
+	url = https://github.com/jcguarinpenaranda/test-monorepo-submodules-private-feature.git

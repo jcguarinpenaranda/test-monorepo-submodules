@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "core": ["packages/core/src/index.ts"]
+      "core": ["packages/core/src/index.ts"],
+      "private-feature": ["packages/private-feature-submodule/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
